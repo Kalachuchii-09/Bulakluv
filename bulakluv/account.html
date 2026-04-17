@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In — Bulakluv</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="account-page">
+    <div class="account-card">
+      <div class="logo-wrap"><a href="index.html" class="logo-mark">bulakluv</a></div>
+      <h1>Sign in</h1>
+      <p class="sub">Sign in or create an account</p>
+      <button type="button" class="btn-purple" onclick="window.location.href='index.html'">Continue with shop</button>
+      <div class="divider-row"><span class="line"></span><span>or</span><span class="line"></span></div>
+      <form class="account-form" onsubmit="event.preventDefault(); window.location.href='index.html';">
+        <input type="email" placeholder="Email" />
+        <button type="submit" class="btn-tan">Continue</button>
+        <label class="checkbox-row"><input type="checkbox"/><span>Email me with news and offers</span></label>
+      </form>
+      <p class="terms">By continuing, you agree to our <a href="#">Terms of service</a></p>
+    </div>
+  </main>
+</body>
+</html>
